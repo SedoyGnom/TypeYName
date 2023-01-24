@@ -1,0 +1,19 @@
+{
+  "name": "arg-typeyourname",
+  "version": "1.0.0",
+  "description": "Мини игра по мотивам Цикада 3301: Квест для хакера",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SedoyGnom/TypeYName.git"
+  },
+  "author": "SedoyGnom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SedoyGnom/TypeYName/issues"
+  },
+  "homepage": "https://github.com/SedoyGnom/TypeYName#readme"
+}

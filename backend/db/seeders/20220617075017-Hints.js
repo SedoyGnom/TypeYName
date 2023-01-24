@@ -1,0 +1,251 @@
+module.exports = {
+  async up(queryInterface, Sequelize) {
+    await queryInterface.bulkInsert('Hints', [
+      {
+        body: 'text long tex blablablablabla 1',
+        sublevel_id: 1,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 1.2',
+        sublevel_id: 1,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 1.3',
+        sublevel_id: 1,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 2.1',
+        sublevel_id: 2,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 2.2',
+        sublevel_id: 2,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 2.3',
+        sublevel_id: 2,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 2.4',
+        sublevel_id: 2,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 3.1',
+        sublevel_id: 3,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 3.2',
+        sublevel_id: 3,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 3.3',
+        sublevel_id: 3,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 4.1',
+        sublevel_id: 4,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 4.2',
+        sublevel_id: 4,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 4.3',
+        sublevel_id: 4,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 4.4',
+        sublevel_id: 4,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 5.1',
+        sublevel_id: 5,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 5.2',
+        sublevel_id: 5,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 6.1',
+        sublevel_id: 6,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 6.2',
+        sublevel_id: 6,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 6.3',
+        sublevel_id: 6,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 6.4',
+        sublevel_id: 6,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 6.5',
+        sublevel_id: 6,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 7.1',
+        sublevel_id: 7,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 7.2',
+        sublevel_id: 7,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 7.3',
+        sublevel_id: 7,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 7.4',
+        sublevel_id: 7,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 7.5',
+        sublevel_id: 7,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 7.6',
+        sublevel_id: 7,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 8.1',
+        sublevel_id: 8,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 8.2',
+        sublevel_id: 8,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 8.3',
+        sublevel_id: 8,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 9.1',
+        sublevel_id: 9,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 9.2',
+        sublevel_id: 9,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 9.3',
+        sublevel_id: 9,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 9.4',
+        sublevel_id: 9,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 10.1',
+        sublevel_id: 10,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 10.2',
+        sublevel_id: 10,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 10.3',
+        sublevel_id: 10,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 10.4',
+        sublevel_id: 10,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 11.1',
+        sublevel_id: 11,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        body: 'text long tex blablablablabla 11.2',
+        sublevel_id: 11,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+
+    ], {});
+  },
+
+  async down(queryInterface, Sequelize) {
+    await queryInterface.bulkDelete('Hints', null, {});
+  },
+};

@@ -1,0 +1,95 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.row {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap:50px;
+animation: fadeIn;
+animation-duration: 4.1s; 
+}
+
+.tree {
+  height: 4in;
+  width: 3in;
+}
+
+.input {
+  width: 400px;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+  font-size: 51px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  background: #ffffff ;
+  text-align: center;
+  outline: none; 
+  color: rgb(110, 110, 110)
+}
+
+.inputone {
+  position: absolute;
+  margin-top: 639px;
+  width: 400px;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+  font-size: 51px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  background: #ffffff ;
+  text-align: center;
+  outline: none; 
+  color: black;
+}
+
+
+@media (max-width: 1318px) {
+
+  .inputone {
+    position: absolute;
+    margin-top: 760px;
+    width: 400px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+    font-size: 51px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    background: #ffffff ;
+    text-align: center;
+    outline: none; 
+    color: black;
+  }
+}
+
+
+@media (max-width: 846px) {
+
+  .inputone {
+    position: absolute;
+    margin-top: 880px;
+    width: 400px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+    font-size: 51px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    background: #ffffff ;
+    text-align: center;
+    outline: none; 
+    color: black;
+  }
+}

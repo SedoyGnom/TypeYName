@@ -1,0 +1,125 @@
+.button {
+  height: 112px;
+  width: 112px;
+
+  z-index: 10;
+  position: relative; 
+  top: -1125px;
+  right: -845px;
+}
+.tv-button {
+
+  height: 112px;
+  width: 112px;
+}
+
+video {
+  height: 531px;
+  background-color: rgb(0, 0, 0);
+  
+}
+
+.Holder {
+  width: 705px;
+  height: 531px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 15px;
+
+  background-image: '../public/images/tv_clear2.png';
+  position: relative; 
+  top: -610px;
+  right: -107px;
+}
+
+.tv {
+  width: 1054px;
+  height: 709px;
+  z-index: 20;
+}
+.tv_little{
+
+  width: 705px;
+  height: 531px;
+  z-index: 20;
+  overflow:hidden;
+
+  display:block;
+
+  border-radius: 15px;
+}
+
+.holderForTV {
+
+  width: 1054px;
+  height: 709px;
+  z-index: 20;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+.everything {
+  display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+  animation-duration: 3s;
+}
+.hiddenbutton{
+
+  background-color: rgb(0, 0, 0);
+
+  width: 100px;
+  height: 100px;
+  position: relative; 
+  top: -700px;
+  right: -107px;
+}
+ input {
+
+  width: 50px;
+  height: 50px;
+  position: relative; 
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+
+  font-size: 21px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  background: #ffffff ;
+  text-align: center;
+
+
+ }
+ button {
+
+  width: 100px;
+  height: 50px;
+  background-color: white;
+  position: relative; 
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-weight: 900;
+  background: #ffffff ;
+  text-align: center;
+
+  font-size: 21px;
+  
+ }
+ .form {
+
+  display: flex;
+	flex-direction: column;
+	align-items: center;
+  position: relative; 
+  top: -900px;
+ }
+
+ .inputs {
+
+  display:flex;
+  align-items: center;
+ }
